@@ -1,0 +1,170 @@
+body header {
+	background-color: #2CA6E9;
+	text-align: center;
+	color: #FD8D00;
+	text-shadow: 3px 2px #060606;
+	font-family: Constancia, "Lucida Bright", "DefaVu Serif", Georgia, serif;
+	font-size: xx-large;
+}
+.descripcion {
+	width: 900px;
+	background-color: #EFFDFC;
+	text-align: justify;
+	font-size: 30px;
+	border-top-right-radius: 58px;
+	border-top-left-radius: 58px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: inline;
+	border-style: solid;
+	border-color: #F3060A;
+	-webkit-box-shadow: 12px 12px 0px 3px #D5D4D4;
+	box-shadow: 12px 12px 0px 3px #D5D4D4;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	-webkit-transform: translate(-50%, 0%);
+}
+.menu {
+	color: #A69D9D;
+	margin-bottom: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #0AD5FF;
+	text-align: center;
+	position: relative;
+}
+.menu ul {
+	background-color: #F4F4F4;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #7C7C7C;
+	overflow: hidden;
+	list-style-type: none;
+}
+.menu ul li {
+	float: left;
+	width: 100px;
+}
+.menu ul li:hover {
+	background-color: #EDCAA2;
+}
+ul li a {
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #7C7C7C;
+	text-shadow: 0px 0px #333333;
+	padding: .3em;
+	display: block;
+	text-decoration: none;
+}
+ul li a:hover {
+	color: #F7080C;
+}
+
+h2 {
+	color: #04360E;
+	font-family: calibri;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px 1px #FDF3F3;
+	text-align: center;
+}
+.formulario{
+	width: 600px;
+	border-style: solid;
+	border-radius: 31px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+}
+/-- Estilos para los ul y li del formulario --/
+.formulario ul {
+	width: 500px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.formulario li {
+	padding: 12px;
+	border-bottom: 1px solid #EEE;
+	position: relative;
+}
+
+.formulario label {
+	color: #555555;
+	display: inline-block;
+	float: left;
+	font-family: calibri;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 3px;
+	padding: 3px;
+	width: 90px;
+}
+.formulario input {
+	height: 20px;
+	width: 220px;
+	padding: 5px 8px;
+}
+.formulario textarea {
+	padding: 8px;
+	width: 300px;
+}
+.formulario button {
+	margin-left: 90px;
+}
+/-- Estilos Visuales de los elementos --/
+.formulario input, .formulario textarea {
+	border: 1px solid #AAA;
+	box-shadow: 0px 0px 3px #CCC, 0 10px 15px #EEE inset;
+	border-radius: 8px;
+	color: #888;
+	font-size: 12px;
+	padding-right: 30px;
+	-moz-transition: padding 0.25s;
+	-webkit-transition: padding 0.25s;
+	-o-transition: padding 0.25s;
+	transition: padding 0.25s;
+}
+.formulario input:focus, .formulario textarea:focus {
+	background: #FFF;
+	border: 1px solid #555;
+	box-shadow: 0 0 3px #AAA;
+	padding-right: 80px;
+}
+/=== Estilos de Validación ===/
+.formulario input:required:valid, .formulario textarea:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921F;
+}
+.formulario input:required:invalid, .formulario textarea:required:invalid {
+	box-shadow: 0 0 5px #D45252;
+	border-color: #B03535;
+}
+/=== Estilo del botón Enviar ===/
+button.submit {
+	padding: 9px 17px;
+	font-family: Helvetica, calibri, Arial, sans-serif;
+	font-weight: bold;
+	line-height: 1;
+	color: #444;
+	border: none;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+	background-image: -webkit-gradient(linear, 0% 0% 0% 100%, from(#FFF),to(#BBB));
+	background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+	border-radius: 10px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+button.submit:hover{
+	opacity: .55;
+	cursor: pointer;
+	color: #035CFC;
+}
+button.submit:active{
+	borde: 1px solid #222;
+	box-shadow: 0 0 10px 5px #444 inset;
+}
